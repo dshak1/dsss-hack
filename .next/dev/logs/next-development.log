@@ -1,0 +1,2587 @@
+[00:00:00.579] Server  LOG      ✓ Ready in 385ms
+[00:00:01.466] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:3:1
+Module not found: Can't resolve '@/components/ui/tabs'
+  1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  2 | import { Badge } from "@/components/ui/badge"
+> 3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+  5 |
+  6 | interface Vulnerability {
+
+Import map: aliased to relative './components/ui/tabs' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:02.141] Browser ERROR   uncaughtError: Error: ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:3:1
+Module not found: Can't resolve '@/components/ui/tabs'
+  1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  2 | import { Badge } from "@/components/ui/badge"
+> 3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+  5 |
+  6 | interface Vulnerability {
+
+Import map: aliased to relative './components/ui/tabs' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:03.266] Browser ERROR   ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:3:1
+Module not found: Can't resolve '@/components/ui/tabs'
+  1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  2 | import { Badge } from "@/components/ui/badge"
+> 3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+  5 |
+  6 | interface Vulnerability {
+
+Import map: aliased to relative './components/ui/tabs' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:03.266] Browser ERROR   ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:3:1
+Module not found: Can't resolve '@/components/ui/tabs'
+  1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  2 | import { Badge } from "@/components/ui/badge"
+> 3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+  5 |
+  6 | interface Vulnerability {
+
+Import map: aliased to relative './components/ui/tabs' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:06.354] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:3:1
+Module not found: Can't resolve '@/components/ui/tabs'
+  1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  2 | import { Badge } from "@/components/ui/badge"
+> 3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+  5 |
+  6 | interface Vulnerability {
+
+Import map: aliased to relative './components/ui/tabs' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.260] Browser ERROR   ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:3:1
+Module not found: Can't resolve '@/components/ui/tabs'
+  1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  2 | import { Badge } from "@/components/ui/badge"
+> 3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+  5 |
+  6 | interface Vulnerability {
+
+Import map: aliased to relative './components/ui/tabs' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:10.266] Browser ERROR   ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:3:1
+Module not found: Can't resolve '@/components/ui/tabs'
+  1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  2 | import { Badge } from "@/components/ui/badge"
+> 3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+  5 |
+  6 | interface Vulnerability {
+
+Import map: aliased to relative './components/ui/tabs' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:30.480] Browser ERROR   ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:3:1
+Export Tabs doesn't exist in target module
+  1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  2 | import { Badge } from "@/components/ui/badge"
+> 3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+  5 |
+  6 | interface Vulnerability {
+
+The export Tabs was not found in module [project]/dsss-hackathon/IntelliAudit/security_scanner/components/ui/tabs.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+[00:00:30.480] Browser ERROR   ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:3:1
+Export TabsContent doesn't exist in target module
+  1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  2 | import { Badge } from "@/components/ui/badge"
+> 3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+  5 |
+  6 | interface Vulnerability {
+
+The export TabsContent was not found in module [project]/dsss-hackathon/IntelliAudit/security_scanner/components/ui/tabs.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+[00:00:30.480] Browser ERROR   ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:3:1
+Export TabsList doesn't exist in target module
+  1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  2 | import { Badge } from "@/components/ui/badge"
+> 3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+  5 |
+  6 | interface Vulnerability {
+
+The export TabsList was not found in module [project]/dsss-hackathon/IntelliAudit/security_scanner/components/ui/tabs.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+[00:00:30.480] Browser ERROR   ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:3:1
+Export TabsTrigger doesn't exist in target module
+  1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  2 | import { Badge } from "@/components/ui/badge"
+> 3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+  5 |
+  6 | interface Vulnerability {
+
+The export TabsTrigger was not found in module [project]/dsss-hackathon/IntelliAudit/security_scanner/components/ui/tabs.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+[00:00:31.401] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:32.270] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. demo_code/vulnerable_app.py-18-AUTH-001
+[00:00:32.270] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:32.270] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:32.271] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1761442057347}
+[00:00:44.252] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:44.429] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. demo_code/vulnerable_app.py-18-AUTH-001
+[00:00:44.429] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:44.429] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:44.429] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1761442070030}
+[00:01:32.561] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.563] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.564] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.565] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.566] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.567] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.567] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { type LucideIcon, TrendingUp, TrendingDown } from "lucide-react"
+  3 |
+  4 | interface ScanSummaryProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.568] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { type LucideIcon, TrendingUp, TrendingDown } from "lucide-react"
+  3 |
+  4 | interface ScanSummaryProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.568] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { type LucideIcon, TrendingUp, TrendingDown } from "lucide-react"
+  3 |
+  4 | interface ScanSummaryProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.568] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.570] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.570] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.574] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.574] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.575] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.577] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.577] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.578] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.579] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.579] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.580] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.580] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.581] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.583] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.610] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.620] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.639] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.644] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.645] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.646] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.647] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.648] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.649] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.653] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { type LucideIcon, TrendingUp, TrendingDown } from "lucide-react"
+  3 |
+  4 | interface ScanSummaryProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.653] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { type LucideIcon, TrendingUp, TrendingDown } from "lucide-react"
+  3 |
+  4 | interface ScanSummaryProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.658] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { type LucideIcon, TrendingUp, TrendingDown } from "lucide-react"
+  3 |
+  4 | interface ScanSummaryProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.658] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.659] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.661] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.662] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.662] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.663] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.663] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.664] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.664] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.665] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.665] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.665] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.666] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.666] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.668] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.669] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.670] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.670] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.672] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:2:1
+Module not found: Can't resolve '@/components/ui/badge'
+  1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+> 2 | import { Badge } from "@/components/ui/badge"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+  5 |
+
+Import map: aliased to relative './components/ui/badge' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.672] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:2:1
+Module not found: Can't resolve '@/components/ui/badge'
+  1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+> 2 | import { Badge } from "@/components/ui/badge"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+  5 |
+
+Import map: aliased to relative './components/ui/badge' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.674] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.674] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.675] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.676] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.676] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.677] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.678] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { type LucideIcon, TrendingUp, TrendingDown } from "lucide-react"
+  3 |
+  4 | interface ScanSummaryProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.678] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { type LucideIcon, TrendingUp, TrendingDown } from "lucide-react"
+  3 |
+  4 | interface ScanSummaryProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.678] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { type LucideIcon, TrendingUp, TrendingDown } from "lucide-react"
+  3 |
+  4 | interface ScanSummaryProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.678] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.679] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.679] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.679] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.679] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.680] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.681] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.681] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.681] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.682] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.682] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.682] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.683] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.684] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.684] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.685] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.685] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.686] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.686] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/ui/tabs.tsx:3:1
+Module not found: Can't resolve '@/lib/utils'
+  1 | import * as React from "react"
+  2 | import * as TabsPrimitive from "@radix-ui/react-tabs"
+> 3 | import { cn } from "@/lib/utils"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const Tabs = TabsPrimitive.Root
+  6 |
+
+Import map: aliased to relative './lib/utils' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/ui/tabs.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.686] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/ui/tabs.tsx:3:1
+Module not found: Can't resolve '@/lib/utils'
+  1 | import * as React from "react"
+  2 | import * as TabsPrimitive from "@radix-ui/react-tabs"
+> 3 | import { cn } from "@/lib/utils"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const Tabs = TabsPrimitive.Root
+  6 |
+
+Import map: aliased to relative './lib/utils' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/ui/tabs.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.687] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:2:1
+Module not found: Can't resolve '@/components/ui/badge'
+  1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+> 2 | import { Badge } from "@/components/ui/badge"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+  5 |
+
+Import map: aliased to relative './components/ui/badge' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.687] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:2:1
+Module not found: Can't resolve '@/components/ui/badge'
+  1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+> 2 | import { Badge } from "@/components/ui/badge"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+  5 |
+
+Import map: aliased to relative './components/ui/badge' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.689] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.690] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.691] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.691] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.693] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.695] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.696] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { type LucideIcon, TrendingUp, TrendingDown } from "lucide-react"
+  3 |
+  4 | interface ScanSummaryProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.696] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { type LucideIcon, TrendingUp, TrendingDown } from "lucide-react"
+  3 |
+  4 | interface ScanSummaryProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.696] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { type LucideIcon, TrendingUp, TrendingDown } from "lucide-react"
+  3 |
+  4 | interface ScanSummaryProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/scan-summary.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.698] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.698] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.699] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.700] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.700] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.701] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Progress } from "@/components/ui/progress"
+  3 | import { Shield } from "lucide-react"
+  4 |
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.701] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.702] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.705] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.705] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.705] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.706] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { AlertTriangle, AlertCircle, Info } from "lucide-react"
+  3 |
+  4 | interface VulnerabilityBreakdownProps {
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-breakdown.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.707] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.708] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.708] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.709] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.710] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.710] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx:1:1
+Module not found: Can't resolve '@/components/ui/card'
+> 1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Badge } from "@/components/ui/badge"
+  3 | import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+  4 | import { AlertTriangle, AlertCircle, Info, FileCode } from "lucide-react"
+
+Import map: aliased to relative './components/ui/card' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.710] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:2:1
+Module not found: Can't resolve '@/components/ui/progress'
+  1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+> 2 | import { Progress } from "@/components/ui/progress"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Shield } from "lucide-react"
+  4 |
+  5 | interface SecurityScoreCardProps {
+
+Import map: aliased to relative './components/ui/progress' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.711] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx:2:1
+Module not found: Can't resolve '@/components/ui/progress'
+  1 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+> 2 | import { Progress } from "@/components/ui/progress"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Shield } from "lucide-react"
+  4 |
+  5 | interface SecurityScoreCardProps {
+
+Import map: aliased to relative './components/ui/progress' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/security-score-card.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.711] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/ui/tabs.tsx:3:1
+Module not found: Can't resolve '@/lib/utils'
+  1 | import * as React from "react"
+  2 | import * as TabsPrimitive from "@radix-ui/react-tabs"
+> 3 | import { cn } from "@/lib/utils"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const Tabs = TabsPrimitive.Root
+  6 |
+
+Import map: aliased to relative './lib/utils' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/ui/tabs.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.711] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/components/ui/tabs.tsx:3:1
+Module not found: Can't resolve '@/lib/utils'
+  1 | import * as React from "react"
+  2 | import * as TabsPrimitive from "@radix-ui/react-tabs"
+> 3 | import { cn } from "@/lib/utils"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const Tabs = TabsPrimitive.Root
+  6 |
+
+Import map: aliased to relative './lib/utils' inside of [project]/dsss-hackathon/IntelliAudit/security_scanner
+
+
+Import trace:
+  Server Component:
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/ui/tabs.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/components/vulnerability-list.tsx
+    ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.714] Server  LOG      ✓ Compiled in 23ms
+[00:01:32.721] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/scan-summary'
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+> 6 | import { ScanSummary } from "@/components/scan-summary"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | // Mock data from the security report
+  9 | const mockScanData = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.722] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/scan-summary'
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+> 6 | import { ScanSummary } from "@/components/scan-summary"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | // Mock data from the security report
+  9 | const mockScanData = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.722] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/security-score-card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+  2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+> 3 | import { SecurityScoreCard } from "@/components/security-score-card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+  6 | import { ScanSummary } from "@/components/scan-summary"
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.723] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/security-score-card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+  2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+> 3 | import { SecurityScoreCard } from "@/components/security-score-card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+  6 | import { ScanSummary } from "@/components/scan-summary"
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.724] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.725] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.725] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.726] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.726] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.727] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { Shield, AlertTriangle, CheckCircle2, XCircle, FileCode, Clock } from "lucide-react"
+> 2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.728] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/vulnerability-breakdown'
+  2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+> 4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+  6 | import { ScanSummary } from "@/components/scan-summary"
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.728] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/vulnerability-breakdown'
+  2 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+> 4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+  6 | import { ScanSummary } from "@/components/scan-summary"
+  7 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.729] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/vulnerability-list'
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+> 5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { ScanSummary } from "@/components/scan-summary"
+  7 |
+  8 | // Mock data from the security report
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:32.729] Server  ERROR    ⨯ ./dsss-hackathon/IntelliAudit/security_scanner/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/vulnerability-list'
+  3 | import { SecurityScoreCard } from "@/components/security-score-card"
+  4 | import { VulnerabilityBreakdown } from "@/components/vulnerability-breakdown"
+> 5 | import { VulnerabilityList } from "@/components/vulnerability-list"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { ScanSummary } from "@/components/scan-summary"
+  7 |
+  8 | // Mock data from the security report
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+

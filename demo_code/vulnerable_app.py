@@ -1,3 +1,4 @@
+
 # Vulnerable application - DO NOT USE IN PRODUCTION
 import sqlite3
 import hashlib
