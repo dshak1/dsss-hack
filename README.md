@@ -6,10 +6,10 @@ This security scanner repurposes the IntelliAudit multi-agent system for code se
 
 ## Quick Start
 
-```bash
+\`\`\`bash
 cd security_scanner
 python security_scanner_demo.py
-```
+\`\`\`
 
 This will:
 1. Create demo vulnerable code

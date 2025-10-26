@@ -19,7 +19,7 @@ Key Features:
 -  JSON report generation
 
 
-```
+\`\`\`
  Starting Security Vulnerability Scanner...
 ============================================================
  Loaded 5 security vulnerability patterns
@@ -43,7 +43,7 @@ Breakdown:
    Critical: 0
   High: 7
    Medium: 2
-```
+\`\`\`
 
 ## Repurposing IntelliAudit
 

@@ -6,10 +6,10 @@ A repurposed version of IntelliAudit that scans code for security vulnerabilitie
 
 ## Quick Usage
 
-```bash
+\`\`\`bash
 cd security_scanner
 python security_scanner_demo.py
-```
+\`\`\`
 
 ## What Gets Scanned
 

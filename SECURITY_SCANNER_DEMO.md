@@ -6,15 +6,15 @@ A **45-minute reimagining** of the IntelliAudit system as a code security scanne
 ## 🚀 Quick Start
 
 ### Run on Demo Code:
-```bash
+\`\`\`bash
 cd IntelliAudit
 python security_scanner_demo.py
-```
+\`\`\`
 
 ### Run on Your Own Code:
-```bash
+\`\`\`bash
 python security_scanner_demo.py /path/to/your/code
-```
+\`\`\`
 
 ## 📊 What It Does
 
@@ -43,7 +43,7 @@ This demonstrates:
 
 ## 📈 Example Output
 
-```
+\`\`\`
 📊 SECURITY ASSESSMENT RESULTS
 ============================================================
 Overall Status: HIGH_RISK_ISSUES
@@ -55,7 +55,7 @@ Breakdown:
   🔴 Critical: 0
   🟠 High: 4
   🟡 Medium: 2
-```
+\`\`\`
 
 ## 💡 How It Repurposes IntelliAudit
 
@@ -71,7 +71,7 @@ Breakdown:
 
 To add more vulnerability patterns, edit `security_scanner_demo.py`:
 
-```python
+\`\`\`python
 vulnerabilities = [
     {
         'vulnerability_id': 'NEW-VULN-001',
@@ -80,7 +80,7 @@ vulnerabilities = [
         'patterns': ['pattern1', 'pattern2']
     }
 ]
-```
+\`\`\`
 
 ## 🎓 Perfect For:
 - Hackathons (45-min MVP)
