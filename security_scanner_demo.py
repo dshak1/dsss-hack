@@ -7,13 +7,12 @@ Repurposes IntelliAudit infrastructure for code security scanning
 import os
 import re
 import ast
-import pandas as pd
 from pathlib import Path
 from typing import List, Dict, Any
 from datetime import datetime
 import json
 
-# Simplified standalone version (no dependencies on sentence_transformers)
+# Simplified standalone version (no dependencies)
 class SecuritySearchAgent:
     """Search agent for security vulnerabilities"""
     
@@ -22,10 +21,9 @@ class SecuritySearchAgent:
     
     def load_knowledge_base(self):
         """Load security vulnerability patterns"""
-        self.knowledge_base = {}
         
         # Common security vulnerability patterns
-        vulnerabilities = [
+        self.vulnerabilities = [
             {
                 'vulnerability_id': 'SQL-INJ-001',
                 'name': 'SQL Injection',
@@ -68,8 +66,7 @@ class SecuritySearchAgent:
             }
         ]
         
-    self.knowledge_base['vulnerabilities'] = pd.DataFrame(vulnerabilities)
-    print(f"Loaded {len(vulnerabilities)} security vulnerability patterns")
+        print(f"✓ Loaded {len(self.vulnerabilities)} security vulnerability patterns")
 
 class SecurityAuditorAgent:
     """Auditor agent for security scanning"""
@@ -84,9 +81,9 @@ class SecurityAuditorAgent:
         lines = code_content.split('\n')
         
         # Get vulnerability patterns
-        vulns_df = self.search_agent.knowledge_base.get('vulnerabilities', pd.DataFrame())
+        vulns = self.search_agent.vulnerabilities
         
-        for _, vuln in vulns_df.iterrows():
+        for vuln in vulns:
             for pattern in vuln.get('patterns', []):
                 matches = re.finditer(pattern, code_content, re.IGNORECASE)
                 for match in matches:
