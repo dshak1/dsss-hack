@@ -68,8 +68,8 @@ class SecuritySearchAgent:
             }
         ]
         
-        self.knowledge_base['vulnerabilities'] = pd.DataFrame(vulnerabilities)
-        print(f"✓ Loaded {len(vulnerabilities)} security vulnerability patterns")
+    self.knowledge_base['vulnerabilities'] = pd.DataFrame(vulnerabilities)
+    print(f"Loaded {len(vulnerabilities)} security vulnerability patterns")
 
 class SecurityAuditorAgent:
     """Auditor agent for security scanning"""
@@ -175,7 +175,7 @@ class SecurityJudgeAgent:
 def scan_directory(directory: str) -> Dict[str, Any]:
     """Scan a directory for security vulnerabilities"""
     
-    print("🔒 Starting Security Vulnerability Scanner...")
+    print(" Starting Security Vulnerability Scanner...")
     print("=" * 60)
     
     # Initialize agents
@@ -191,11 +191,11 @@ def scan_directory(directory: str) -> Dict[str, Any]:
         code_files.extend(Path(directory).rglob(f'*{ext}'))
     
     if not code_files:
-        print("⚠ No code files found to scan")
+        print(" No code files found to scan")
         return {}
     
-    print(f"📁 Found {len(code_files)} code files to scan")
-    print("\n🔍 Scanning files for vulnerabilities...")
+    print(f" Found {len(code_files)} code files to scan")
+    print("\n Scanning files for vulnerabilities...")
     
     scan_results = []
     for i, file_path in enumerate(code_files, 1):
@@ -209,30 +209,30 @@ def scan_directory(directory: str) -> Dict[str, Any]:
             if result['total_vulnerabilities'] > 0:
                 print(f"  {i}. {file_path.name}: {result['total_vulnerabilities']} vulnerabilities found (Score: {result['security_score']}/100)")
             else:
-                print(f"  {i}. {file_path.name}: ✓ No vulnerabilities (Score: {result['security_score']}/100)")
+                print(f"  {i}. {file_path.name}: No vulnerabilities (Score: {result['security_score']}/100)")
         
         except Exception as e:
             print(f"  {i}. {file_path.name}: Error - {e}")
     
     # Judge evaluation
-    print("\n⚖️ Generating security assessment...")
+    print("\nGenerating security assessment...")
     assessment = judge_agent.evaluate_codebase(scan_results)
     
     # Display results
     print("\n" + "=" * 60)
-    print("📊 SECURITY ASSESSMENT RESULTS")
+    print(" SECURITY ASSESSMENT RESULTS")
     print("=" * 60)
     print(f"Overall Status: {assessment['overall_status']}")
     print(f"Security Score: {assessment['overall_security_score']}/100")
     print(f"Files Scanned: {assessment['total_files_scanned']}")
     print(f"Total Vulnerabilities: {assessment['total_vulnerabilities']}")
     print(f"\nBreakdown:")
-    print(f"  🔴 Critical: {assessment['breakdown']['critical']}")
-    print(f"  🟠 High: {assessment['breakdown']['high']}")
-    print(f"  🟡 Medium: {assessment['breakdown']['medium']}")
+    print(f"  Critical: {assessment['breakdown']['critical']}")
+    print(f"  High: {assessment['breakdown']['high']}")
+    print(f"  Medium: {assessment['breakdown']['medium']}")
     
     if assessment['vulnerabilities_by_severity']['CRITICAL']:
-        print("\n🚨 CRITICAL VULNERABILITIES:")
+        print("\n CRITICAL VULNERABILITIES:")
         for vuln in assessment['vulnerabilities_by_severity']['CRITICAL'][:5]:
             print(f"  - {vuln['vulnerability_name']} in {vuln['file']}:{vuln['line']}")
     
@@ -241,7 +241,7 @@ def scan_directory(directory: str) -> Dict[str, Any]:
     with open(report_file, 'w') as f:
         json.dump(assessment, f, indent=2)
     
-    print(f"\n✅ Report saved to: {report_file}")
+    print(f"\n Report saved to: {report_file}")
     
     return assessment
 
@@ -282,13 +282,13 @@ def read_file(filename):
     with open('demo_code/vulnerable_app.py', 'w') as f:
         f.write(vulnerable_code)
     
-    print("✓ Created demo vulnerable code file: demo_code/vulnerable_app.py")
+    print("Created demo vulnerable code file: demo_code/vulnerable_app.py")
 
 def main():
     """Main execution"""
     import sys
     
-    print("🔒 Security Vulnerability Scanner MVP")
+    print(" Security Vulnerability Scanner MVP")
     print("=" * 60)
     
     if len(sys.argv) > 1:

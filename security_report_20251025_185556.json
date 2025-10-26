@@ -1,0 +1,113 @@
+{
+  "timestamp": "2025-10-25T18:55:56.418959",
+  "overall_status": "HIGH_RISK_ISSUES",
+  "overall_security_score": 60.0,
+  "total_files_scanned": 2,
+  "total_vulnerabilities": 9,
+  "breakdown": {
+    "critical": 0,
+    "high": 7,
+    "medium": 2
+  },
+  "vulnerabilities_by_severity": {
+    "CRITICAL": [],
+    "HIGH": [
+      {
+        "vulnerability_id": "AUTH-001",
+        "vulnerability_name": "Weak Authentication",
+        "severity": "HIGH",
+        "category": "authentication",
+        "file": "demo_code/vulnerable_app.py",
+        "line": 8,
+        "code_snippet": "    query = f\"SELECT * FROM users WHERE username = '{username}' AND password = '{password}'\"",
+        "pattern_matched": "password.*="
+      },
+      {
+        "vulnerability_id": "AUTH-001",
+        "vulnerability_name": "Weak Authentication",
+        "severity": "HIGH",
+        "category": "authentication",
+        "file": "demo_code/vulnerable_app.py",
+        "line": 18,
+        "code_snippet": "SECRET_PASSWORD = \"admin123\"",
+        "pattern_matched": "password.*="
+      },
+      {
+        "vulnerability_id": "AUTH-001",
+        "vulnerability_name": "Weak Authentication",
+        "severity": "HIGH",
+        "category": "authentication",
+        "file": "demo_code/vulnerable_app.py",
+        "line": 18,
+        "code_snippet": "SECRET_PASSWORD = \"admin123\"",
+        "pattern_matched": "secret.*="
+      },
+      {
+        "vulnerability_id": "AUTH-001",
+        "vulnerability_name": "Weak Authentication",
+        "severity": "HIGH",
+        "category": "authentication",
+        "file": "demo_code/vulnerable_app.py",
+        "line": 17,
+        "code_snippet": "API_KEY = \"sk-1234567890abcdef\"",
+        "pattern_matched": "api_key.*="
+      },
+      {
+        "vulnerability_id": "AUTH-001",
+        "vulnerability_name": "Weak Authentication",
+        "severity": "HIGH",
+        "category": "authentication",
+        "file": "demo_code/vulnerable.py",
+        "line": 6,
+        "code_snippet": "    query = f\"SELECT * FROM users WHERE username = '{username}' AND password = '{password}'\"",
+        "pattern_matched": "password.*="
+      },
+      {
+        "vulnerability_id": "AUTH-001",
+        "vulnerability_name": "Weak Authentication",
+        "severity": "HIGH",
+        "category": "authentication",
+        "file": "demo_code/vulnerable.py",
+        "line": 10,
+        "code_snippet": "password = \"admin123\"",
+        "pattern_matched": "password.*="
+      },
+      {
+        "vulnerability_id": "AUTH-001",
+        "vulnerability_name": "Weak Authentication",
+        "severity": "HIGH",
+        "category": "authentication",
+        "file": "demo_code/vulnerable.py",
+        "line": 9,
+        "code_snippet": "API_KEY = \"sk-1234567890\"",
+        "pattern_matched": "api_key.*="
+      }
+    ],
+    "MEDIUM": [
+      {
+        "vulnerability_id": "CRYPTO-001",
+        "vulnerability_name": "Weak Cryptography",
+        "severity": "MEDIUM",
+        "category": "cryptography",
+        "file": "demo_code/vulnerable_app.py",
+        "line": 13,
+        "code_snippet": "    # WEAK CRYPTOGRAPHY - MD5 is broken",
+        "pattern_matched": "MD5"
+      },
+      {
+        "vulnerability_id": "CRYPTO-001",
+        "vulnerability_name": "Weak Cryptography",
+        "severity": "MEDIUM",
+        "category": "cryptography",
+        "file": "demo_code/vulnerable_app.py",
+        "line": 14,
+        "code_snippet": "    return hashlib.md5(password.encode()).hexdigest()",
+        "pattern_matched": "MD5"
+      }
+    ]
+  },
+  "files_scanned": [
+    "demo_code/vulnerable_app.py",
+    "demo_code/vulnerable.py"
+  ]
+}

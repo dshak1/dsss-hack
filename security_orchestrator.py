@@ -26,7 +26,7 @@ class SecurityOrchestrator:
     """Orchestrator for security vulnerability scanning"""
     
     def __init__(self):
-        print("🔒 Initializing Security Vulnerability Scanner...")
+        print(" Initializing Security Vulnerability Scanner...")
         
         # Initialize agents with security focus
         self.search_agent = SearchAgent(output_dir="")
@@ -40,14 +40,14 @@ class SecurityOrchestrator:
         """Scan a directory for security vulnerabilities"""
         
         print(f"\n{'='*60}")
-        print(f"🔍 SCANNING DIRECTORY: {directory}")
+        print(f"SCANNING DIRECTORY: {directory}")
         print(f"{'='*60}\n")
         
         # Find code files
         code_files = self._find_code_files(directory)
         
         if not code_files:
-            print("⚠ No code files found to scan")
+            print(" No code files found to scan")
             return {}
         
         print(f"📁 Found {len(code_files)} code files to scan\n")
@@ -71,10 +71,10 @@ class SecurityOrchestrator:
                     print(f"    ✓ No vulnerabilities found")
             
             except Exception as e:
-                print(f"    ✗ Error: {e}")
+                print(f" Error: {e}")
         
         # Generate assessment
-        print(f"\n⚖️ Generating security assessment...")
+        print(f"Generating security assessment...")
         assessment = self._generate_assessment(scan_results)
         
         # Print results
@@ -105,6 +105,10 @@ class SecurityOrchestrator:
                 'severity': 'CRITICAL',
                 'description': 'Potential SQL injection vulnerability'
             })
+
+
+
+            
         
         # Check for hardcoded credentials
         if any(keyword in content for keyword in ['password =', 'api_key =', 'secret =']):
@@ -121,7 +125,6 @@ class SecurityOrchestrator:
                 'severity': 'MEDIUM',
                 'description': 'Use of weak cryptographic algorithms'
             })
-        
         # Check for eval usage
         if 'eval(' in content:
             vulnerabilities.append({
@@ -130,6 +133,8 @@ class SecurityOrchestrator:
                 'description': 'Use of eval() can lead to code injection'
             })
         
+
+
         return {
             'file': file_path,
             'vulnerabilities_found': len(vulnerabilities),
@@ -137,6 +142,9 @@ class SecurityOrchestrator:
             'security_score': max(0, 100 - (len(vulnerabilities) * 25))
         }
     
+
+
+    #make an acutal assessement 
     def _generate_assessment(self, scan_results: List[Dict[str, Any]]) -> Dict[str, Any]:
         """Generate security assessment using judge agent logic"""
         
@@ -152,6 +160,12 @@ class SecurityOrchestrator:
             'HIGH': [v for v in all_vulns if v['severity'] == 'HIGH'],
             'MEDIUM': [v for v in all_vulns if v['severity'] == 'MEDIUM']
         }
+
+
+
+
+
+        # basic rundown of issues
         
         if by_severity['CRITICAL']:
             status = 'CRITICAL_ISSUES_FOUND'
@@ -181,16 +195,16 @@ class SecurityOrchestrator:
         """Print assessment results"""
         
         print(f"\n{'='*60}")
-        print("📊 SECURITY ASSESSMENT RESULTS")
+        print(" SECURITY ASSESSMENT RESULTS")
         print(f"{'='*60}")
         print(f"Status: {assessment['status']}")
         print(f"Security Score: {assessment['security_score']}/100")
         print(f"Files Scanned: {assessment['files_scanned']}")
         print(f"Total Vulnerabilities: {assessment['total_vulnerabilities']}")
         print(f"\nBreakdown:")
-        print(f"  🔴 Critical: {assessment['breakdown']['critical']}")
-        print(f"  🟠 High: {assessment['breakdown']['high']}")
-        print(f"  🟡 Medium: {assessment['breakdown']['medium']}")
+        print(f"   Critical: {assessment['breakdown']['critical']}")
+        print(f"   High: {assessment['breakdown']['high']}")
+        print(f"   Medium: {assessment['breakdown']['medium']}")
         
         if assessment['details']['CRITICAL']:
             print(f"\n🚨 CRITICAL VULNERABILITIES:")
@@ -204,7 +218,7 @@ def main():
     """Main execution"""
     import sys
     
-    print("🔒 Security Vulnerability Scanner")
+    print(" Security Vulnerability Scanner")
     print("Repurposed from IntelliAudit Multi-Agent System")
     print("=" * 60)
     

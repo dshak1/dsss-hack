@@ -2,7 +2,7 @@
 
 ## Overview
 
-This security scanner repurposes the IntelliAudit multi-agent system for code security vulnerability detection. It demonstrates how the same core infrastructure can be applied to completely different domains.
+This security scanner is a multi-agent system for code security vulnerability detection. It demonstrates how the same core infrastructure can be applied to completely different domains.
 
 ## Quick Start
 
