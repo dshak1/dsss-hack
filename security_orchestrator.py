@@ -111,6 +111,11 @@ class SecurityOrchestrator:
         
         return assessment
     
+
+
+
+
+
     def _find_code_files(self, directory: str) -> List[Path]:
         """Find all code files in directory"""
         code_extensions = {'.py', '.js', '.java', '.cpp', '.c', '.cs', '.php', '.rb', '.go', '.rs'}
@@ -120,6 +125,8 @@ class SecurityOrchestrator:
             code_files.extend(Path(directory).rglob(f'*{ext}'))
         
         return code_files
+    
+    
     
     def _scan_file(self, file_path: str, content: str) -> Dict[str, Any]:
         """Scan a single file using auditor agent logic"""
