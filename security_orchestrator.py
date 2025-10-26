@@ -10,17 +10,36 @@ from datetime import datetime
 from typing import List, Dict, Any
 from pathlib import Path
 
+
+
+
+
+
+
+
+
+
 # Set up environment for LangSmith tracking
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
 # Add your LangSmith API key here
 # os.environ["LANGCHAIN_API_KEY"] = "your-api-key-here"
 
+
+
+
+
 # Import existing agents (will be modified for security)
 from search_agent import SearchAgent
 from auditor_agent import AuditorAgent
 from defender_agent import DefenderAgent
 from judge_agent import JudgeAgent
+
+
+
+
+
+
 
 class SecurityOrchestrator:
     """Orchestrator for security vulnerability scanning"""
@@ -46,6 +65,14 @@ class SecurityOrchestrator:
         # Find code files
         code_files = self._find_code_files(directory)
         
+
+
+
+
+
+
+
+
         if not code_files:
             print(" No code files found to scan")
             return {}
@@ -108,7 +135,7 @@ class SecurityOrchestrator:
 
 
 
-            
+
         
         # Check for hardcoded credentials
         if any(keyword in content for keyword in ['password =', 'api_key =', 'secret =']):
