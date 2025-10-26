@@ -179,7 +179,7 @@ class SecurityOrchestrator:
         avg_score = sum(r['security_score'] for r in scan_results) / len(scan_results) if scan_results else 0
         
 
-        
+
         all_vulns = []
         for result in scan_results:
             all_vulns.extend(result.get('vulnerabilities', []))
@@ -218,6 +218,8 @@ class SecurityOrchestrator:
             },
             'details': by_severity,
             'files': scan_results
+
+
         }
     
     def _print_results(self, assessment: Dict[str, Any]):
@@ -236,7 +238,7 @@ class SecurityOrchestrator:
         print(f"   Medium: {assessment['breakdown']['medium']}")
         
         if assessment['details']['CRITICAL']:
-            print(f"\n🚨 CRITICAL VULNERABILITIES:")
+            print(f"\nCRITICAL VULNERABILITIES:")
             for vuln in assessment['details']['CRITICAL'][:5]:
                 print(f"  - {vuln['type']}: {vuln['description']}")
         
@@ -264,7 +266,7 @@ def main():
     # Run scan
     results = orchestrator.scan_directory(directory)
     
-    print("\n✅ Scan complete!")
+    print("\n Scan complete!")
 
 
 if __name__ == "__main__":
