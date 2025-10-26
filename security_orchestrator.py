@@ -53,13 +53,13 @@ class SecurityOrchestrator:
         self.defender_agent = DefenderAgent(self.search_agent)
         self.judge_agent = JudgeAgent(self.search_agent, self.auditor_agent, self.defender_agent)
         
-        print("✓ Security scanner initialized successfully!")
+        print("Security scanner init success.  ")
     
     def scan_directory(self, directory: str) -> Dict[str, Any]:
         """Scan a directory for security vulnerabilities"""
         
         print(f"\n{'='*60}")
-        print(f"SCANNING DIRECTORY: {directory}")
+        print(f"scanning : {directory}")
         print(f"{'='*60}\n")
         
         # Find code files
@@ -77,7 +77,7 @@ class SecurityOrchestrator:
             print(" No code files found to scan")
             return {}
         
-        print(f"📁 Found {len(code_files)} code files to scan\n")
+        print(f"Found {len(code_files)} code files to scan\n")
         
         # Scan files
         scan_results = []
@@ -177,6 +177,8 @@ class SecurityOrchestrator:
         
         total_vulnerabilities = sum(r['vulnerabilities_found'] for r in scan_results)
         avg_score = sum(r['security_score'] for r in scan_results) / len(scan_results) if scan_results else 0
+        
+
         
         all_vulns = []
         for result in scan_results:
