@@ -1,0 +1,74 @@
+{
+  "timestamp": "2025-10-25T17:39:38.256172",
+  "files_scanned": 2,
+  "total_vulnerabilities": 7,
+  "security_score": 35,
+  "breakdown": {
+    "critical": 0,
+    "high": 6,
+    "medium": 1
+  },
+  "vulnerabilities": {
+    "CRITICAL": [],
+    "HIGH": [
+      {
+        "vulnerability_id": "AUTH-001",
+        "name": "Hardcoded Credentials",
+        "severity": "HIGH",
+        "file": "demo_code/vulnerable_app.py",
+        "line": 8,
+        "code": "query = f\"SELECT * FROM users WHERE username = '{username}' AND password = '{password}'\""
+      },
+      {
+        "vulnerability_id": "AUTH-001",
+        "name": "Hardcoded Credentials",
+        "severity": "HIGH",
+        "file": "demo_code/vulnerable_app.py",
+        "line": 18,
+        "code": "SECRET_PASSWORD = \"admin123\""
+      },
+      {
+        "vulnerability_id": "AUTH-001",
+        "name": "Hardcoded Credentials",
+        "severity": "HIGH",
+        "file": "demo_code/vulnerable_app.py",
+        "line": 17,
+        "code": "API_KEY = \"sk-1234567890abcdef\""
+      },
+      {
+        "vulnerability_id": "AUTH-001",
+        "name": "Hardcoded Credentials",
+        "severity": "HIGH",
+        "file": "demo_code/vulnerable.py",
+        "line": 7,
+        "code": "query = f\"SELECT * FROM users WHERE username = '{username}' AND password = '{password}'\""
+      },
+      {
+        "vulnerability_id": "AUTH-001",
+        "name": "Hardcoded Credentials",
+        "severity": "HIGH",
+        "file": "demo_code/vulnerable.py",
+        "line": 11,
+        "code": "password = \"admin123\""
+      },
+      {
+        "vulnerability_id": "AUTH-001",
+        "name": "Hardcoded Credentials",
+        "severity": "HIGH",
+        "file": "demo_code/vulnerable.py",
+        "line": 10,
+        "code": "API_KEY = \"sk-1234567890\""
+      }
+    ],
+    "MEDIUM": [
+      {
+        "vulnerability_id": "CRYPTO-001",
+        "name": "Weak Cryptography",
+        "severity": "MEDIUM",
+        "file": "demo_code/vulnerable_app.py",
+        "line": 14,
+        "code": "return hashlib.md5(password.encode()).hexdigest()"
+      }
+    ]
+  }
+}
