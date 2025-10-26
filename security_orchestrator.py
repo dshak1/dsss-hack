@@ -93,10 +93,12 @@ class SecurityOrchestrator:
                 scan_results.append(result)
                 
                 if result.get('vulnerabilities_found', 0) > 0:
-                    print(f"    ⚠ Found {result['vulnerabilities_found']} vulnerabilities")
+                    print(f"Found {result['vulnerabilities_found']} vulnerabilities")
                 else:
-                    print(f"    ✓ No vulnerabilities found")
+                    print(f"No vulnerabilities found")
             
+
+
             except Exception as e:
                 print(f" Error: {e}")
         
@@ -145,6 +147,8 @@ class SecurityOrchestrator:
                 'description': 'Potential hardcoded credentials'
             })
         
+
+
         # Check for weak cryptography
         if any(crypto in content for crypto in ['MD5', 'SHA1', 'DES']):
             vulnerabilities.append({
@@ -152,6 +156,9 @@ class SecurityOrchestrator:
                 'severity': 'MEDIUM',
                 'description': 'Use of weak cryptographic algorithms'
             })
+
+
+
         # Check for eval usage
         if 'eval(' in content:
             vulnerabilities.append({
@@ -172,9 +179,7 @@ class SecurityOrchestrator:
 
 
     #make an acutal assessement 
-    def _generate_assessment(self, scan_results: List[Dict[str, Any]]) -> Dict[str, Any]:
-        """Generate security assessment using judge agent logic"""
-        
+    def _generate_assessment(self, scan_results: List[Dict[str, Any]]) -> Dict[str, Any]:        
         total_vulnerabilities = sum(r['vulnerabilities_found'] for r in scan_results)
         avg_score = sum(r['security_score'] for r in scan_results) / len(scan_results) if scan_results else 0
         
@@ -194,7 +199,7 @@ class SecurityOrchestrator:
 
 
 
-        # basic rundown of issues
+        # basic rundown of issues and return 
         
         if by_severity['CRITICAL']:
             status = 'CRITICAL_ISSUES_FOUND'
@@ -205,6 +210,9 @@ class SecurityOrchestrator:
         else:
             status = 'NO_CRITICAL_ISSUES'
         
+
+
+        #return a format a random dude can actually understand somwhat with basic bullet point like info of most essential stuff
         return {
             'timestamp': datetime.now().isoformat(),
             'status': status,
